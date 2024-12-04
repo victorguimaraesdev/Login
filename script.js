@@ -6,18 +6,16 @@ document.getElementById("login-button").addEventListener("click", function (even
     const password = document.getElementById("password").value;
 
     if (!email || !password) {
-        alert("Por favor, preencha todos os campos.");
+        alert("Preencha todos os campos.");
         return;
     }
-
-
     login(email, password)
 });
 
 
 function login(email, password) {
 
-    if (email === "usuario@exemplo.com" && password === "senha123") {
+    if (email === "login@email.com" && password === "123") {
         alert("Login bem-sucedido!");
 
         window.location.replace("dashboard.html")

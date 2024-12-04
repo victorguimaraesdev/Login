@@ -5,7 +5,8 @@
     font-family: "Poppins", sans-serif;
 }
 body {
-    background: url("https://picsum.photos/1600/900?random=1");
+    background: url("https://wallpapers.com/images/hd/4k-programming-digital-world-map-6cm23bhnci86c5w5.jpg"); 
+    /*background: url("https://picsum.photos/1600/900?random=1");*/
     background-size: cover;
     background-position: center;
     min-height: 100vh;
